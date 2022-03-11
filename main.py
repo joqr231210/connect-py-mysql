@@ -1,7 +1,7 @@
 import mysql.connector
 
 cnx = mysql.connector.connect(user='root',
-                              password='Futuro2020',
+                              password='PASSWORD',
                               host='localhost',
                               database='sygnalys')
 cursor = cnx.cursor()
